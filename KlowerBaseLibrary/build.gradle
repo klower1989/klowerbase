@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.android.support:recyclerview-v7:23.2.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.nineoldandroids:library:2.4.0'
+    //    compile 'com.commit451:PhotoView:1.2.5'
+    compile files('libs/core.jar')
+    compile files('libs/ormlite-android-4.48.jar')
+    compile files('libs/ormlite-core-4.48.jar')
+    compile files('libs/photoview.jar')
+    compile 'com.android.support:design:23.2.0'
+    //如果你想用http-master,请导入下列的2行
+    compile 'cz.msebera.android:httpclient:4.3.6'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+
+    //如果你想用Voley，请解注这一行
+//    compile 'dev.dworks.libs:volleyplus:+'
+}

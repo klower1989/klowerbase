@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/mail_serverip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="服务器的IP"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/mail_serveport"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="服务器的端口"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/mail_sendermail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="发送者邮箱"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/mail_senderpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="发送者邮箱密码"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/mail_acceptermail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="接收者邮箱地址"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/mail_subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="邮件主题"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/mail_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="邮件内容"
+        android:padding="5dp" />
+
+</LinearLayout>

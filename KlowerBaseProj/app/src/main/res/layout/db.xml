@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="insert Klower " />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="update" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/quary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Quary all" />
+    
+    <Button
+        android:id="@+id/quary_page"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Quary first page" />
+
+    <TextView
+        android:text="show result"
+        android:id="@+id/show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

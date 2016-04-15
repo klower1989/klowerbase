@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.klower.roundedimageview.RoundedImageView
+        android:id="@+id/gridview_item_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lh_photo_default"
+        app:border_color="#B7ACFB"
+        app:border_width="0dip"
+        app:corner_radius="3dip"
+        app:oval="false" />
+
+    <ImageView
+        android:src="@drawable/ic_list_delete"
+        android:id="@+id/gridview_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

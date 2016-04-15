@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<com.klower.component.CustomGridView
+        android:id="@+id/category_item_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:listSelector="@null"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+</LinearLayout>

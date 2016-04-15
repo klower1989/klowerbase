@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2015 Akexorcist
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <color name="text">#ffffffff</color>
+    <color name="background_dark">#ff363636</color>
+    <color name="background_content">#ff454344</color>
+
+    <color name="custom_progress_background">#ff3c3a3b</color>
+
+    <color name="custom_progress_green_header">#ff99cc00</color>
+    <color name="custom_progress_green_progress">#ff669900</color>
+    <color name="custom_progress_green_progress_half">#7f669900</color>
+
+    <color name="custom_progress_orange_header">#ffffbb33</color>
+    <color name="custom_progress_orange_progress">#ffff8800</color>
+    <color name="custom_progress_orange_progress_half">#7fff8800</color>
+
+    <color name="custom_progress_blue_header">#ff33b5e5</color>
+    <color name="custom_progress_blue_progress">#ff0099cc</color>
+    <color name="custom_progress_blue_progress_half">#7f0099cc</color>
+
+    <color name="custom_progress_purple_header">#ffaa66cc</color>
+    <color name="custom_progress_purple_progress">#ff9933cc</color>
+    <color name="custom_progress_purple_progress_half">#7f9933cc</color>
+
+    <color name="custom_progress_red_header">#ffcc0000</color>
+    <color name="custom_progress_red_progress">#ffff4444</color>
+    <color name="custom_progress_red_progress_half">#7fff4444</color>
+    
+    
+    <color name="custom_header_text">#85B100</color>
+    <color name="custom_selected">#A8D324</color>
+    <color name="custom_background">#F0F8DB</color>
+    <color name="custom_background_today">#FF9105</color>
+    <color name="custom_background_disabled">#F0F8DB</color>
+    <color name="custom_text_selected">#FFFFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="transparent">#00000000</color>
+    
+    
+    <color name="theme1_darker_color">#ff0a463a</color>
+    <color name="theme1_dark_color">#ff1a8868</color>
+    <color name="theme1_primary_color">#1abc9c</color>
+    <color name="theme1_light_color">#ff1bf0cf</color>
+    <integer-array name="custom_theme_1">
+        <item>@color/theme1_darker_color</item>
+        <item>@color/theme1_dark_color</item>
+        <item>@color/theme1_primary_color</item>
+        <item>@color/theme1_light_color</item>
+    </integer-array>
+
+
+    <color name="theme2_darker_color">#008AA1</color>
+    <color name="theme2_dark_color">#FFFF34</color>
+    <color name="theme2_primary_color">#10C6DC</color>
+    <color name="theme2_light_color">#ff6dffff</color>
+
+    <integer-array name="custom_theme_2">
+        <item>@color/theme2_darker_color</item>
+        <item>@color/theme2_dark_color</item>
+        <item>@color/theme2_primary_color</item>
+        <item>@color/theme2_light_color</item>
+    </integer-array>
+    
+    
+    <integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array>
+    
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+    
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="red">#FF3B00</color>
+    <color name="red_press">#990000</color>
+    <color name="dark_gray">#4C535B</color>
+    <color name="dark_gray_press">#ff7e8a97</color>
+    
+     <color name="black">#FF000000</color>
+  <color name="white">#FFFFFFFF</color>
+  <color name="brown">#FF4B2D29</color>
+  <color name="orange">#FFE29B33</color>
+  <color name="pink">#FFE9C7C7</color>
+  <color name="gray">#FF929292</color>
+   <color name="inside_progress">#ff6c4d70</color>
+  <color name="external_progress">#9C27B0</color>
+  <color name="bottom_velocimeter">#e515171d</color>
+  <color name="internal_velocimeter">#ffb4b4b4</color>
+  <color name="needle">#6200EA</color>
+  <color name="digital_number">#ffdcefff</color>
+
+
+    <!--<color name="blue">#044792</color>-->
+    <color name="gainsboro">#eee8f2</color>
+</resources>

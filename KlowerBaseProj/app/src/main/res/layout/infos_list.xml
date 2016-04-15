@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp" >
+
+    <com.klower.pla.lib.internal.ScaleImageView
+        android:id="@+id/job_item_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/empty_photo" />
+
+    <TextView
+        android:singleLine="true"
+        android:id="@+id/text"
+        android:textSize="16sp"
+        android:textColor="@color/TextBlack"
+        android:padding="5dp"
+        android:text="dasda"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

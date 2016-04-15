@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:id="@+id/minValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/maxValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" />
+
+    <com.klower.seekbar.RangeSeekBar1
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.klower.seekbar.RangeSeekBar1>
+    
+    <com.klower.rangeseekbar.RangeBar
+        android:id="@+id/rangebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.klower.rangeseekbar.RangeBar>
+
+</LinearLayout>

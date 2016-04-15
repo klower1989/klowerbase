@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/function_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/animation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgBehind"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="#C0F2B5" />
+
+        <ImageView
+            android:id="@+id/imgTarget"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="#F8AFB8" />
+    </FrameLayout>
+
+</RelativeLayout>

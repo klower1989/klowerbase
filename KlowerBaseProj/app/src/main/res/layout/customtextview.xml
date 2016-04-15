@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <com.klower.customtextview.CustomTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        fontStyle="Roboto_Bold"
+        android:gravity="center_vertical"
+        android:text="Welcome"
+        android:textColor="@color/TextBlack"
+        android:textSize="20sp" />
+
+    <com.klower.customtextview.CustomTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        fontStyle="Mao_Regular"
+        android:gravity="center_vertical"
+        android:text="毛泽东字体"
+        android:textColor="@color/TextBlack"
+        android:textSize="20sp" />
+
+    <com.klower.customtextview.CustomEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        fontStyle="Roboto_Bold"
+        android:gravity="center_vertical"
+        android:text="Welcome"
+        android:textColor="@color/TextBlack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:gravity="clip_vertical"
+        android:textSize="17sp"
+        android:layout_margin="20dp"
+        android:id="@+id/stringbuilder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

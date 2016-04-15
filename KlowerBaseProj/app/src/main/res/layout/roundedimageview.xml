@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.klower.roundedimageview.RoundedImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:padding="10dip"
+        android:scaleType="centerCrop"
+        app:border_color="#B7ACFB"
+        app:border_width="2dip"
+        app:corner_radius="30dip"
+        app:oval="false" />
+
+    <com.klower.roundedimageview.RoundedImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dip"
+        android:scaleType="centerCrop"
+        app:border_color="#FABBAD"
+        app:border_width="3dip"
+        app:corner_radius="30dip"
+        app:oval="true" />
+    
+    <com.klower.roundedimageview.RoundedImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:padding="10dip"
+        android:scaleType="centerCrop"
+        app:border_color="#FABBAD"
+        app:border_width="3dip"
+        app:corner_radius="180dip"
+        app:oval="true" />
+
+</LinearLayout>
