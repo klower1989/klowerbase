@@ -1,2 +1,0 @@
-include ':app',':KlowerBaseLibrary'
-project(':KlowerBaseLibrary').projectDir = new File('../KlowerBaseLibrary')
